@@ -23,7 +23,6 @@ body {
     display: flex;
     justify-content: space-around;
     width: 100%;
-    height: 100%;
     cursor: pointer;
 }
 
@@ -66,7 +65,7 @@ svg:hover {
 }
 
 .nav-link {
-    background-color: none;   
+    background-color: none;
 }
 
 .active {
@@ -95,4 +94,55 @@ svg:hover {
     margin-left: auto;
     margin-right: auto;
     border-radius: 100%;
+}
+
+form {
+    margin: 20px;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.Submit {
+    background-color: #15616D;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    border: none;
+    border-radius: 5%;
+    transition: 0.1s;
+}
+
+.Submit:hover {
+    transition: 0.25s;
+    background-color: #279AF1;
+}
+
+.Submit:disabled, button[disabled] {
+    transition: 0.5s;
+    background-color: gray;
+}
+
+label {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: inherit;
+}
+
+.inputBoxes {
+    height: 30px;
+    margin: 10px;
+}
+
+textarea {
+    resize: none;
+    width: 80%;
+    height: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
