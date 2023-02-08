@@ -112,8 +112,7 @@ form {
     padding-top: 5px;
     padding-bottom: 5px;
     text-decoration: none;
-    border: none;
-    border-radius: 5%;
+    border: black solid;
     transition: 0.1s;
 }
 
@@ -145,4 +144,46 @@ textarea {
     height: 200px;
     margin-top: 15px;
     margin-bottom: 15px;
+}
+
+.Pros {
+    text-align: center;
+    font-size: 50px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+li {
+    font-size: 30px;
+    width: 300px;
+    margin-bottom: 30px;
+}
+
+.ResumeButton {
+    background-color: #15616D;
+    color: white;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    transition: 0.1s;
+    height: 80px;
+    margin-top: 20px;
+    border: black solid;
+}
+
+.ResumeButton:hover {
+    transition: 0.25s;
+    background-color: #279AF1;
+}
+
+.ButtonContainer {
+    display: flex;
+    justify-content: center;
 }
