@@ -1,9 +1,12 @@
 import React, { useState } from 'react';
+
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import Resume from './pages/Resume';
+
 import Header from './Header';
+import Footer from './Footer';
 
 export default function FullPage() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -28,6 +31,7 @@ export default function FullPage() {
     <div>
       <Header currentPage={currentPage} handlePageChange={handlePageChange} />
       {renderPage()}
+      <Footer />
     </div>
   );
 }

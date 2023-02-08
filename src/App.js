@@ -1,6 +1,7 @@
 import React from "react";
 // Importing CSS
 import './App.css';
+
 // Importing Components
 import FullPage from "./components/Navigation";
 

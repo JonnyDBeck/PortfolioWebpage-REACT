@@ -20,4 +20,25 @@ body {
     align-items: center;
     width: 500px;
     height: 100%;
+    cursor: pointer;
+}
+
+.Footer {
+    font-size: 80px;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-top: 50px;
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    position: absolute;
+    bottom: 0;
+    background-color: #15616D;
+    height: 115px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
