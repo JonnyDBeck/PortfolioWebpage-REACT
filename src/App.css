@@ -1,24 +1,28 @@
 body {
     margin: 0;
+    background-color: #C0E0DE;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .Header {
     background-color: #15616D;
     color: white;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
-    height: 20%;
+    height: 200px;
+    position: fixed;
+    top: 0%;
 }
 
 .Title {
     top: 50px;
     font-size: 50px;
+    text-align: center;
 }
 
 .NavBar {
-    display: flexbox;
-    align-items: center;
-    width: 500px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
     height: 100%;
     cursor: pointer;
 }
@@ -31,7 +35,7 @@ body {
     width: 40%;
     display: flex;
     justify-content: space-evenly;
-    position: absolute;
+    position: fixed;
     bottom: 0;
     background-color: #15616D;
     height: 115px;
@@ -41,4 +45,54 @@ body {
 a {
     text-decoration: none;
     color: inherit;
+    transition: 0.25s;
+}
+
+a:hover {
+    transition: 0.5s;
+    color: #279AF1;
+}
+
+svg {
+    cursor: pointer;
+    transition: 0.1s;
+    font-size: inherit;
+}
+
+svg:hover {
+    transition: 0.25s;
+    color: #279AF1;
+    font-size: 100px;
+}
+
+.nav-link {
+    background-color: none;   
+}
+
+.active {
+    color: #279AF1;
+}
+
+.theSection {
+    padding-left: 10%;
+    padding-bottom: 150px;
+    padding-top: 200px;
+    padding-right: 10%;
+}
+
+.AboutHead {
+    font-size: 50px;
+    text-align: center;
+}
+
+.AboutBody {
+    font-size: 35px;
+    text-align: center;
+}
+.AboutPic {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
 }

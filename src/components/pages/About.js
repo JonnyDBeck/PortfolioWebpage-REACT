@@ -1,16 +1,17 @@
 import React from 'react';
+import profilePic from '../../images/ProfilePic.jpg'
 
 export default function About() {
   return (
-    <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
+    <div className='theSection'>
+      <h1 className='AboutHead'>About Me</h1>
+      <img
+      className='AboutPic'
+        src={profilePic}
+        alt='This Is Me'></img>
+      <p className='AboutBody'>
+        Hello! My Name is Jonathan Beck. I am a Software developer that has experience 
+        in both front-end and back-end programming.
       </p>
     </div>
   );
