@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/PortfolioWebpage-REACT/static/css/main.b4b62a37.css",
+    "main.js": "/PortfolioWebpage-REACT/static/js/main.446ba363.js",
+    "static/media/PetSearch.jpg": "/PortfolioWebpage-REACT/static/media/PetSearch.09cb39fd661492a3c09a.jpg",
+    "static/media/ProfilePic.jpg": "/PortfolioWebpage-REACT/static/media/ProfilePic.f79d1046811ce63ba313.jpg",
+    "static/media/React.png": "/PortfolioWebpage-REACT/static/media/React.1ad6d8084f35d1869259.png",
+    "static/media/TrackMeet.jpg": "/PortfolioWebpage-REACT/static/media/TrackMeet.6472990352c854761c92.jpg",
+    "static/media/Quiz.jpg": "/PortfolioWebpage-REACT/static/media/Quiz.7fe95dd8fbf04605b8b3.jpg",
+    "index.html": "/PortfolioWebpage-REACT/index.html",
+    "main.b4b62a37.css.map": "/PortfolioWebpage-REACT/static/css/main.b4b62a37.css.map",
+    "main.446ba363.js.map": "/PortfolioWebpage-REACT/static/js/main.446ba363.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4b62a37.css",
+    "static/js/main.446ba363.js"
+  ]
+}
